@@ -57,9 +57,8 @@ import App from './components/App';
 import Page1 from './components/Page1/Page1';
 
 export default StackNavigator({
-  home: { screen: App },
-  page1: { screen: Page1 },
-  page2: { screen: Page2 } 
+  Home: { screen: App },
+  Page1: { screen: Page1 }
 })
 ```
 
